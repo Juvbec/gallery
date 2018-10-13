@@ -1,0 +1,28 @@
+
+body {
+    background: url(../imgs/medow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[class^=balloon] {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    bottom: 0;
+    transition : 0.3s;
+    position: absolute;
+}
+
+
+.balloon1 {
+    background-color: red;
+}
+.balloon2 {
+    background-color: green;
+    left: 200px;
+}

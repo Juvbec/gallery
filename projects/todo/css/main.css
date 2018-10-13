@@ -1,0 +1,97 @@
+body {
+  background-color: steelblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+.filters {
+  display: flex;
+  justify-content: space-around;
+}
+#todo-filter, #todo-sort {
+  margin: 10px;
+  flex-shrink: 1;
+}
+/* notebook look */
+.notebook {
+  background-color: #f5f5f5;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 5px 10px 50px black;
+}
+.todo-list {
+  color: #555;
+  font-size: 22px;
+  padding: 0;
+  width: 500px;
+  font-family: courier, monospace;
+  border: 1px solid #dedede;
+}
+.todo-list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  float: left;
+  height: 495px;
+  margin-left: 40px;
+}
+.done {
+  text-decoration: line-through;
+}
+
+/* btn delete*/
+.btn-delete {
+  border: 0;
+  flex-basis: 10px;
+  border-radius: 50%;
+  background-color: crimson;
+  cursor: pointer;
+  float: right;
+}
+.btn-delete:hover {
+  background-color: tomato;
+  color: white;
+}
+.btn-delete:active {
+  background-color: crimson;
+}
+
+.add-todo-container {
+  background-color: navy;
+  padding: 10px;
+}
+h1 {
+  color: purple;
+  font-weight: bolder;
+}
+main section {
+  align-self: center;
+}
+
+header {
+  text-align: center;
+}
+
+.importance1 {
+  color: green;
+}
+.importance2 {
+  color: blue;
+}
+.importance3 {
+  color: red;
+}

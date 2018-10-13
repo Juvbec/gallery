@@ -1,0 +1,22 @@
+
+.board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.board td {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: darkkhaki;
+    transition: .3s;
+}
+.table td:hover {
+    background-color: lightsalmon;
+}
+
+.mark {
+    background-color: darkred !important;
+}
